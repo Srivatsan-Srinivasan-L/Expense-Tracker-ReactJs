@@ -11,3 +11,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body.light {
+  background-color: #f2f2f2;
+  color: #111;
+}
+
+body.dark {
+  background-color: #181818;
+  color: #f1f1f1;
+}
+
+body.dark .income-card,
+body.dark .expense-card,
+body.dark .transactions,
+body.dark .balance-card,
+
+body.dark .expense-chart,
+body.dark .chart-container,
+body.dark .transaction-box,
+body.dark .chart-item {
+  background-color: #272727;
+  color: #f1f1f1;
+  box-shadow: none;
+}
+
+body.dark .reset-btn,
+body.dark .quote-btn,
+body.dark .toggle-btn,
+body.dark td,
+body.dark th {
+  background-color: #333 !important;
+  color: #fff !important;
+  border-color: #555;
+}
+
+body.dark thead {
+  background-color: #444;
+}
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.income {
+  color: green;
+}
+
+.expense {
+  color: red;
+}
