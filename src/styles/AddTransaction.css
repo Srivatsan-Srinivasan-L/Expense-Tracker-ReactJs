@@ -69,3 +69,58 @@
   /* button:hover {
     background: #333;
   } */
+
+
+  @media (max-width: 768px) {
+    .add-transaction-container {
+      padding: 15px;
+      margin: 20px auto;
+    }
+  
+    .transaction-box {
+      padding: 20px;
+    }
+  
+    input,
+    textarea,
+    select {
+      width: 100% !important;
+    }
+  
+    .transaction-type {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    button {
+      font-size: 15px;
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .add-transaction-container {
+      padding: 10px;
+    }
+  
+    .transaction-box {
+      padding: 15px;
+    }
+  
+    .transaction-type {
+      font-size: 14px;
+    }
+  
+    input,
+    textarea,
+    select {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    button {
+      padding: 10px;
+      font-size: 14px;
+    }
+  }
+  

@@ -86,3 +86,46 @@
 }
 
 
+@media (max-width: 992px) {
+  .dashboard-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .summary-cards {
+    flex-direction: column;
+  }
+
+  .transactions-chart-row {
+    flex-direction: column;
+  }
+
+  .add-transaction {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .dashboard {
+    padding: 1rem;
+  }
+
+  .balance-card,
+  .income-card,
+  .expense-card,
+  .transactions,
+  .expense-chart {
+    padding: 1rem;
+  }
+
+  .chart-container {
+    height: 250px;
+  }
+
+  .transactions li {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+}

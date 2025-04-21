@@ -123,3 +123,49 @@ body.dark {
   text-align: center;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+    gap: 0.5rem;
+  }
+
+  .nav-links li a {
+    width: 100%;
+    display: block;
+    padding: 10px;
+  }
+
+  .logo {
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Modal Content on Small Screens */
+@media (max-width: 480px) {
+  .modal-content {
+    max-width: 90%;
+    padding: 1.5rem 1rem;
+  }
+}
+
+/* Responsive buttons */
+@media (max-width: 480px) {
+  .nav-button,
+  .toggle-btn,
+  .reset-btn,
+  .quote-btn,
+  .cls-btn {
+    padding: 8px 10px;
+    font-size: 0.9rem;
+  }
+}
